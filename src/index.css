@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+hr {
+}
+img {
+  width: 20%;
+  display: block;
+}
+input {
+  font-family: inherit;
+  outline: none;
+  border: 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  margin: 9em 0 0 6em;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  max-width: 29%;
+}
+button {
+  font-family: inherit;
+  border: 0;
+  padding: 10px;
+  background-color: #d93f3f;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
